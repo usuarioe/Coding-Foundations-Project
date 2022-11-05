@@ -1,0 +1,17 @@
+/* General styles of the page */
+body {
+    margin: 0px;
+	background-color: #191A1D;
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, sans-serif;
+	font-weight:900;
+    color: #FFFFFF;
+	height: 780px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+span {
+    font-family: 'Archivo Black', sans-serif;
+}

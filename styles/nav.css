@@ -1,0 +1,78 @@
+/* Navigation bar */
+.navigation-wrapper {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo section */
+.navigation-wrapper > .left-column {
+    width: 16%;
+    margin: 0px 10px;
+}
+.navigation-wrapper > .left-column > .logo-image img {
+    width: 100%;
+}
+
+/* Explore section */
+.navigation-wrapper > .center-column {
+    width: 43%;
+    margin: 20px 137px 20px 40px;
+	font-size: 1.1rem;
+}
+.navigation-wrapper > .center-column > .explore-text {
+    color: #F4E187;
+}
+.navigation-wrapper > .center-column > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link a {
+    text-decoration: none;
+    font-family: 'Archivo Black';
+    color: #FFFFFF;
+}
+.navigation-wrapper > .center-column > .links-wrapper > .nav-selector {
+	display: flex;
+	justify-content: space-between;
+	color: #ABB3B3;
+}
+.navigation-wrapper > .center-column > .links-wrapper > .nav-selector p {
+	padding: 0px 15px 0px 25px;
+	letter-spacing: 0.05em;
+}
+
+/* Login section */
+.navigation-wrapper > .right-column {
+    width: 41%;
+	font-size: 1.25rem;
+	margin-right: 20px;
+}
+.navigation-wrapper > .right-column > .headings-wrapper {
+	display: flex;
+	flex-direction: colums;
+	justify-content: space-between;
+	align-items: center;	
+}
+.navigation-wrapper > .right-column > .headings-wrapper > .heading {
+	background-color: #36383F;
+	padding: 15px 26px;
+	border-radius: 5px;
+}
+.navigation-wrapper > .right-column > .headings-wrapper > .heading > .heading-selector {
+	display: flex;
+	justify-content: space-between;
+}
+.navigation-wrapper > .right-column > .headings-wrapper > .heading > .heading-selector p {
+	padding: 0px 10px 0px 0px;
+}
+.navigation-wrapper > .right-column > .headings-wrapper > .heading > .heading-selector i {
+	color: #4BCE79;
+}
+.navigation-wrapper > .right-column > .headings-wrapper > .search-icon i {
+	color: #7B7E8B;
+	font-size: 1.5em;
+	margin: 0px 10px;
+}
